@@ -538,7 +538,7 @@ h4 {
 .advantages--second .list_item::before {
   content: "";
   position: absolute;
-  background-image: url("/svg/list_check.svg");
+  background-image: url("./svg/list_check.svg");
   background-repeat: no-repeat;
   width: 31px;
   height: 31px;
@@ -1402,7 +1402,7 @@ h4 {
   padding: 0 10px;
   border-radius: 6px;
   background: transparent;
-  background-image: url("/svg/example_card.svg");
+  background-image: url("./svg/example_card.svg");
   background-repeat: no-repeat;
 }
 .example .example_bottom .example_card p {
@@ -1651,7 +1651,7 @@ h4 {
 }
 
 .accordion-button::after {
-  background-image: url("/svg/accordion_btn.svg") !important;
+  background-image: url("./svg/accordion_btn.svg") !important;
 }
 
 .accordion-button:not(.collapsed)::after {
